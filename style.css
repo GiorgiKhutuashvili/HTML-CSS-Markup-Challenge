@@ -27,3 +27,14 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .registration-form {
+        width: 90%;
+    }
+}
